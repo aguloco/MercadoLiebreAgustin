@@ -1,4 +1,5 @@
-*{box-sizing:border-box;}
+*{box-sizing:border-box;
+}
 
 
 /*IMÁGENES DE LOS PRODUCTOS*/
@@ -8,6 +9,7 @@
     width: 20%;
     border-radius: 5%;
     margin: 20px;
+    
     }
 
 
@@ -21,6 +23,7 @@
     background-color: white;
     padding:-50px;
     margin: auto;
+    
    
 
  }
@@ -48,6 +51,7 @@ body {
     background-color: #ebebeb;
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
+    
     
 }
 
@@ -234,9 +238,17 @@ color:white;
 }
 
 
+@media (max-width:769px){
+    h62{
+        display:none;
+    }
+}
+
+
+
 
 @media (min-width:361px){
-    .body{
+    #body{
     box-shadow: 0px 0px 10px rgb ( 100 , 100 , 100 );
     }
     }
@@ -270,6 +282,22 @@ color:white;
 }
 
 
+
+/*Botones registro y login corregidos para tablet*/
+
+@media  (min-width:769px) and (max-width:1218px){
+    h62{left:900px;
+       
+    }
+}
+
+
+/* Botones VENDER,TIENDAS OFICIALES ETC NO LOGRO QUE SE VEAN EN TABLET */
+@media  (min-width:769px) and (max-width:1218px){
+    #productos{top:59px;
+       
+    }
+}
 
 
 
