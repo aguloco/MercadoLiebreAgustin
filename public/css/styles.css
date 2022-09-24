@@ -17,6 +17,7 @@
     position:relative;
     border-radius: 5%;
     width:20%;
+    bottom:20px;
     background-color: white;
     padding:-50px;
     margin: auto;
@@ -245,6 +246,29 @@ color:white;
         display:none;
     }
 }
+
+
+@media (max-width:1218px){
+    #productos{
+        width:550px;
+    }
+}
+
+@media (max-width:1218px){
+    h3{
+        
+        left:20px;
+        position:relative;
+        width:100%;
+        bottom:20px;
+        background-color: white;
+        padding:-50px;
+        
+
+        
+    }
+}
+
 
 
 
