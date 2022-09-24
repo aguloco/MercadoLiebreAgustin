@@ -1,8 +1,47 @@
 *{box-sizing:border-box;}
 
 
+/*IMÁGENES DE LOS PRODUCTOS*/
+
+#productos{
+
+    width: 20%;
+    border-radius: 5%;
+    margin: 20px;
+    }
 
 
+    
+    /*PRECIOS Y DESCRIPCIÓN DE LOS PRODUCTOS*/
+ h3{   
+    position:relative;
+    border-radius: 5%;
+    width:20%;
+    background-color: white;
+    padding:-50px;
+    margin: auto;
+   
+
+ }
+
+
+/*PRECIOS Y DESCUENTOS*/
+.Precios {
+    font-size: 18px;
+}
+
+.Descuentos {
+    font-size: 16px;
+    color:#39b54a;
+}
+
+.Descripcion{
+    font-size: 16px;
+    color:#666;
+}
+
+
+    
 
 body {
     background-color: #ebebeb;
@@ -12,13 +51,14 @@ body {
 }
 
 main {
-    box-sizing: border-box;
     width:100%;
     line-break: 10px;
-    background-color: lightgrey;
+    background-color: #ebebeb;
     padding: 50px;
-    margin: 20px;
+    margin: -3px;
     text-align:center;
+    
+    
     
     
     
@@ -52,9 +92,8 @@ header{
     display:flex;
     width:100%;
     flex-direction: row;
-    background-color: rgb(234, 201, 38);
-    
-  padding: 4%;
+    background-color: #eac926;
+    padding: 4%;
   margin: auto;
 
   
@@ -64,6 +103,7 @@ header{
 
     h2 {
         font-size:24px;
+        color:#666;
     
     }
 
@@ -101,19 +141,19 @@ header{
         flex-direction: row;
         text-align:justify;
         position:relative;
-    left:152%;}
+        left:600px;
+    }
 
 
     .navbar {
         display:flex;
-       
+       left:-1110px;
         position:relative;
         top:65px;
-        right:70%;
         text-align:justify;
         font-size:15px;
 
-        
+       
         
         
       }
@@ -134,7 +174,7 @@ header{
 color:white;
         font-size:28px;
         border-radius: 7px;
-  background: #0044aa;
+  background: #03264c;
   padding: 15px; 
   width: 25px;
   height: 25px;  
@@ -145,6 +185,7 @@ color:white;
         position: absolute;
         text-align:center;
         width:100%;
+        background-color: white;
         
        
     }
@@ -161,22 +202,51 @@ color:white;
         }
 
 
+
+        .icono_envio{
+            font-size: 18px;
+            color:#39b54a;
+            border: 1px solid #39b54a;
+            background-color: #FFF;
+            border-radius: 50%;
+            padding: 6px;
+        }
+
+
 .burger-menu{text-align: center;}
 
 
 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
     .burger-menu {display:none;}
 }
 
 
 
-@media (max-width:1100px){
+
+/*Login, registro y barra de navegación*/
+@media (max-width:769px){
     .navbar{
         display:none;
     }
 }
+
+
+
+@media (min-width:361px){
+    .body{
+    box-shadow: 0px 0px 10px rgb ( 100 , 100 , 100 );
+    }
+    }
+
+@media (max-width:769px){
+    .Descripcion{
+        display:none;
+    }
+}
+
+
 
 
 
