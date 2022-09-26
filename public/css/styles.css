@@ -207,6 +207,8 @@ header{
     ul.no-bullets {
         list-style-type: none; 
         display:flex;
+        position:relative;
+        left:40px;
         
        
         
