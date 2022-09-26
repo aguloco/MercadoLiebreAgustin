@@ -19,7 +19,15 @@ app.get("/views/login.html", (req,res) => {
     }
 );
 
-app.listen(3001, function () {
-    console.log('Servidor corriendo en puerto 3001')
+
+app.listen(process.env.PORT || 3000, function() {
+    console.log("Servidor corriendo");
 })
 
+
+
+/* app.listen(3000, function () {
+    console.log('Servidor corriendo en puerto 3000')
+})
+
+*/
