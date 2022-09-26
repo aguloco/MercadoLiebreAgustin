@@ -9,6 +9,19 @@
 }
 
 
+
+
+/* Barra de navegación */
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+
 /*IMÁGENES DE LOS PRODUCTOS*/
 
 #productos{
