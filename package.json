@@ -11,15 +11,5 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.1"
-  },
-  "devDependencies": {
-     "git-scripts": "^0.6.4",
-  "surge": "^0.23.1"
-  },
-  "git": {
-    "scripts": {
-      "pre-push": "surge --project ./ --domain MercadoLiebreAgustin.surge.sh"
-    }
   }
 }
- 

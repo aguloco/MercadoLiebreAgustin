@@ -27,27 +27,11 @@
 #productos{
 
     width: 90%;
-<<<<<<< HEAD
-=======
-    
-    margin: 20px;
- 
-   
->>>>>>> 089c21879253bb7be42bc42de22ac2393e609935
     
     margin: 20px;
  
    
     
-    }
-
-
-    #tarjeta_producto{
-       
-        box-shadow: 0px 0px 10px rgb( 100 , 100 , 100 ); 
-    background-color: white;
-   
-        
     }
 
 
@@ -120,22 +104,14 @@ main {
     
     margin:0 auto;
     
-<<<<<<< HEAD
-    width:30%;
-=======
     width:150%;
->>>>>>> 089c21879253bb7be42bc42de22ac2393e609935
     height:10%;
     line-break: 10px;
     background-color: #ebebeb;
     padding: 50px;
    
-<<<<<<< HEAD
-    
-=======
     display: flex;
     flex-direction: row;
->>>>>>> 089c21879253bb7be42bc42de22ac2393e609935
     
     
     
@@ -289,21 +265,14 @@ color:white;
 
         .icono_envio{
             position: relative;
-<<<<<<< HEAD
-            bottom:15px;
-=======
             bottom:10px;
->>>>>>> 089c21879253bb7be42bc42de22ac2393e609935
             font-size: 18px;
             color:#39b54a;
             border: 1px solid #39b54a;
             background-color: #FFF;
             border-radius: 50%;
             padding: 6px;
-<<<<<<< HEAD
-=======
             z-index: 1;
->>>>>>> 089c21879253bb7be42bc42de22ac2393e609935
             
         }
 
@@ -414,36 +383,23 @@ hr.solid {
 
 
 @media (max-width:1218px){
-<<<<<<< HEAD
-    #productos{
-        width:60%;
-=======
     #basadotitulo{
         margin: 0 auto;
         position:relative;
         left:10%;
         text-align:justify;
         width:100%;
->>>>>>> 089c21879253bb7be42bc42de22ac2393e609935
     }
 }
 
 
 @media (max-width:1218px){
-<<<<<<< HEAD
-    h3{
-        
-      
-
-        
-=======
     #basado{
         margin: 0 auto;
         position:relative;
         right:20%;
         text-align:justify;
         width:80%;
->>>>>>> 089c21879253bb7be42bc42de22ac2393e609935
     }
 }
 
